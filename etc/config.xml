@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <customshipping>
+                <active>1</active>
+                <is_online>1</is_online>
+                <title>Custom Shipping Title</title>
+                <name>Custom Shipping Name</name>
+                <model>TadeuRodrigues\CustomShipping\Model\Carrier</model>
+                <shipping_cost>10</shipping_cost>
+                <max_package_weight>150</max_package_weight>
+                <shipment_requesttype>0</shipment_requesttype>
+                <specificerrmsg>Mensagem de error</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <debug>1</debug>
+            </customshipping>
+        </carriers>
+    </default>
+</config>
